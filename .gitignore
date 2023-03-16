@@ -1,23 +1,41 @@
-# Compiled class file
+/.idea/
+target
+*.iml
 *.class
-
-# Log file
+.DS_Store
+*.classpath
+*.project
 *.log
+.settings/
+.factorypath
 
-# BlueJ files
-*.ctxt
+log/
+logs/
+*.factorypath
+lili-shop/src/main/java/cn/lili/generator/CodeGenerator.java
+lili-logs
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+### STS ###
+.apt_generated
+.classpath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
