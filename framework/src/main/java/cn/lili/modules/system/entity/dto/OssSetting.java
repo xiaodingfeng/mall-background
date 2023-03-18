@@ -113,6 +113,31 @@ public class OssSetting implements Serializable {
      */
     private String tencentCOSEndPoint = "";
 
+    /**
+     * 七牛云AccessKey
+     */
+    private String qiniuKODOAccessKey = "";
+    /**
+     * 七牛云SecretKey
+     */
+    private String qiniuKODOSecretKey = "";
+    /**
+     * 七牛云 文件目录
+     */
+    private String qiniuKODOFilePath = "";
+    /**
+     * 七牛云Bucket
+     */
+    private String qiniuKODOBucket = "";
+    /**
+     * 七牛云区域
+     */
+    private String qiniuKODORegion = "";
+    /**
+     * 七牛云域名前缀
+     */
+    private String qiniuUrlPrefix = "";
+
     public String getType() {
         //默认给阿里云oss存储类型
         if (StringUtils.isEmpty(type)) {

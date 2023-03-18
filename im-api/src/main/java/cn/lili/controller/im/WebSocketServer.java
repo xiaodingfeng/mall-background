@@ -59,6 +59,7 @@ public class WebSocketServer {
     public void onOpen(@PathParam("accessToken") String accessToken, Session session) {
 
 
+        System.out.println("ajkdjkasjdksjd");
         AuthUser authUser = UserContext.getAuthUser(accessToken);
 
         String sessionId = UserEnums.STORE.equals(authUser.getRole()) ? authUser.getStoreId() : authUser.getId();
